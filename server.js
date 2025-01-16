@@ -1,3 +1,6 @@
+// 引入 dotenv 模塊來加載 .env 文件中的環境變數
+require('dotenv').config();
+
 const path = require("path");
 const express = require("express");
 const config = require("./config");
